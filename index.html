@@ -6,16 +6,26 @@
 <style>
     .header {
         background-color: yellow;
-        color: green;
-        margin: 10px;
-        padding: 10px;
-        font-size: 200%;
-        text-align: center;
-        font-family: calibri;
-        
-        
-        
+        width: 100%;
+        overflow: auto;
     }
+.header a{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: green;
+    font-size: 32px;
+}
+.header a:hover{
+    background-color: darkred;
+    
+}
+.active{
+    background-color: pink;
+}
+
 .center{
     display: block;
     margin-left: auto;
@@ -27,16 +37,20 @@
 </style>
 
 <div class = "header">
+    <a class="active" href="#"><i class ="fa fa-home"></i></a>
     <a>About Me</a>
     <a>Resume</a>
     <a>Contact Me</a>
 </div>
 
-<h1 class = "center">
+<h1 class = "center" style ="
+    text-align: center;
+    width: 75%
+    ">
     Moises Gutierrez's Personal Website
 </h1>
 <a>
-    <img src="https://i.ibb.co/Z6LWwsN/IMG-2418.jpg" alt="Personal Headshot" class = "center">
+    <img src="https://i.ibb.co/Z6LWwsN/IMG-2418.jpg"; alt="Personal Headshot" class = "center">
 </a>
 
 </body>
