@@ -4,8 +4,7 @@
 </head>
 <body style = "background-color: cornflowerblue;">
 <style>
-    
-    .header {
+.header {
         background-color: lightgrey;
         width: 100%;
         overflow: auto;
@@ -37,6 +36,24 @@
     
 }
 
+* {
+     box-sizing: border-box;
+   }
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+}
+.row{
+  content: "";
+  clear: both;
+  display: table;
+  justify-content: space-between;
+  
+}
+
+
 </style>
 
 <div class = "header">
@@ -50,19 +67,22 @@
     text-align: center;
     width: 75%
     ">
-    Welcome to My Personal Website!
+    Welcome to My Personal Website! <br />
 </h1>
-<a><img src="https://i.ibb.co/f9QrNLL/photoshothead.jpg" alt="Personal Headshot" class = "center"></a>
 
-<a class = "center" style = "
-    text-align:center;
-    width:75%;
-    font-size:30px;
-     ">
-    
-    Site is still under construction!
-    
-</a>
+<div class = "row" >
+    <div class = "column" style = " font-size:32px; text-align:center">
+        Hello there, its me Moises!
+        </div>
+    <div class = "column">
+        <img src="https://i.ibb.co/f9QrNLL/photoshothead.jpg" alt="Personal Headshot" class = "center" style = "width: 100%" >
+        </div>
+    <div class = "column" style = "font-size:32px; text-align:center">
+        This website is close to done but I still have a lot to do!
+        </div>
+</div>
+
+
 </body>
 </html>
 
