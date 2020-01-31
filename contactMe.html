@@ -41,10 +41,17 @@
 
 .box{
     display: flex;
-    justify-content: space-between;
     margin: 20px;
+    justify-content: space-between;
   }
-
+.box img {
+   display: block;
+   width: 80%;
+   min-width:100px;
+   max-width: 350px; /*actual image width*/
+   height: auto; /* maintain aspect ratio*/
+   margin: auto; /*optional centering of image*/
+}
 
 
 </style>
@@ -56,29 +63,19 @@
     <a href = "contactMe.html">Contact Me</a>
 </div>
 <div class = "box">
-    <div>
-        <a href = "https://www.linkedin.com/in/moisesgtz">
-        <img src="./assets/linked-in.png" alt="LinkedIn" style = "width:75%; height: auto;">
+    <a href = "https://www.linkedin.com/in/moisesgtz">
+        <img src="./assets/linked-in.png" alt="LinkedIn" style = "width:90%">
     </a>
-    </div>
     
-    <div>
-    <img src="./assets/email.png" alt="email" style = "width:70%; height: auto;">
-    </div>
+    <a href = "mailto:moisesgtzv40@gmail.com">
+    <img src="./assets/email.png" alt="email" style = "width:85%">
+    </a>
     
-    <div>
     <a href = "https://github.com/moisesgtz">
-    <img src="./assets/github.png" alt="github" style = "width:75%; height: auto;">
+    <img src="./assets/github.png" alt="github" style = "width:90%">
     </a>
-    </div>
+    
 </div>
-<h1>
-    Cell: (678)999-8212 <br />
-    Personal email: moisesgtzv40@gmail.com <br />
-    Github: github.com/moisesgtz <br />
-    LinkedIn: linkedin.com/moisesgtz
-    </h1>
-
 
 </body>
 </html>
