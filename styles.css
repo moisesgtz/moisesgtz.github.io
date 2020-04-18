@@ -1,5 +1,5 @@
 .header {
-        background-color: lightgrey;
+        background-color: #f7efad;
         width: 100%;
         overflow: auto;
     }
@@ -13,7 +13,7 @@
     font-size: 32px;
 }
 .header a:hover{
-    background-color: darkgrey;
+    background-color: teal;
     color: white;
     
     
@@ -48,3 +48,15 @@
 }
 
 
+.centercm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-family: serif;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    
+    
+}
